@@ -1,0 +1,5 @@
+C:\Users\Юрий\Projects\NPP_Chat\NPP_Chat\bin\Debug\NPP_Chat.dll.config
+C:\Users\Юрий\Projects\NPP_Chat\NPP_Chat\bin\Debug\NPP_Chat.dll
+C:\Users\Юрий\Projects\NPP_Chat\NPP_Chat\bin\Debug\NPP_Chat.pdb
+C:\Users\Юрий\Projects\NPP_Chat\NPP_Chat\obj\Debug\NPP_Chat.dll
+C:\Users\Юрий\Projects\NPP_Chat\NPP_Chat\obj\Debug\NPP_Chat.pdb

@@ -1,0 +1,10 @@
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\bin\Debug\ChatHost.exe.config
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\bin\Debug\ChatHost.exe
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\bin\Debug\ChatHost.pdb
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\bin\Debug\NPP_Chat.dll
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\bin\Debug\NPP_Chat.pdb
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\bin\Debug\NPP_Chat.dll.config
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\obj\Debug\ChatHost.csprojAssemblyReference.cache
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\obj\Debug\ChatHost.csproj.CopyComplete
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\obj\Debug\ChatHost.exe
+C:\Users\Юрий\Projects\NPP_Chat\ChatHost\obj\Debug\ChatHost.pdb
