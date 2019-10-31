@@ -31,7 +31,7 @@ namespace ChatClient
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            client = new ServiceChatClient(new InstanceContext(this));
+            //client = new ServiceChatClient(new InstanceContext(this));
         }
         void ConnectUser()
         {
@@ -42,9 +42,9 @@ namespace ChatClient
                 tbUserName.IsEnabled = false;
                 bConnDiscon.Content = "Disconnect";
                 isConnected = true;
+                LState.Content = client.State;
             }
         }
-
         void DisconnectUser()
         {
             client.Disconnect(Id);
@@ -52,6 +52,14 @@ namespace ChatClient
             tbUserName.IsEnabled = true;
             bConnDiscon.Content = "Connect";
             isConnected = false;
+            if(client==null)
+            {
+                LState.Content = "Error";
+            }
+            else
+            {
+                LState.Content = client.State;
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

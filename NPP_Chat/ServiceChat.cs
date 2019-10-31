@@ -24,17 +24,19 @@ namespace NPP_Chat
             nextId++;
 
             SendMsg(": " + user.Name + " подключился к чату!", 0);
+            Console.WriteLine($"{user.Name} just connected");
             users.Add(user);
             return user.Id;
         }
 
         public void Disconnect(int id)
         {
-            var user = users.FirstOrDefault(i => i.Id == id);
-            if(user != null)
+            var user = users.FirstOrDefault(i => i.Id == id);   
+            if (user != null)
             {
                 users.Remove(user);
                 SendMsg(": " + user.Name + " покинул чат!", 0);
+                Console.WriteLine($"{user.Name} just disconnected");
             }
         }
 

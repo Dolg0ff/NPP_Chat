@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="324" Width="455" HorizontalAlignment="Left" Loaded="Window_Loaded" Closing="Window_Closing">
     <Grid Margin="0,0,242,45">
-        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="28" Margin="163,10,-211,0" TextWrapping="Wrap" Text="User name" VerticalAlignment="Top" Width="253" TextChanged="TextBox_TextChanged"/>
-        <Button x:Name="bConnDiscon" Content="Connect" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="148" Height="28" Click="Button_Click"/>
+        <TextBox x:Name="tbUserName" HorizontalAlignment="Left" Height="28" Margin="117,10,-145,0" TextWrapping="Wrap" Text="User name" VerticalAlignment="Top" Width="233" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="bConnDiscon" Content="Connect" HorizontalAlignment="Left" Margin="355,10,-211,0" VerticalAlignment="Top" Width="61" Height="28" Click="Button_Click" RenderTransformOrigin="-0.705,0.464"/>
         <ListBox x:Name="lbChat" HorizontalAlignment="Left" Height="160" Margin="10,43,-211,0" VerticalAlignment="Top" Width="406" SelectionChanged="lbChat_SelectionChanged"/>
         <TextBox x:Name="tbMessage" HorizontalAlignment="Left" Height="76" Margin="10,208,-211,-36" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="406" TextChanged="tbMessage_TextChanged" KeyDown="tbMessage_KeyDown"/>
-
+        <Label x:Name="LState" Content="Label" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.053,0.615" Width="102" AutomationProperties.Name="LState"/>
     </Grid>
 </Window>
